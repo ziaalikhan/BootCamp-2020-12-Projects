@@ -1,0 +1,106 @@
+.myNavbar {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #002552;
+}
+
+
+.logo {
+  margin-top: 1rem;
+  margin-left: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+#myDropdown {
+  margin-right: 3%;
+  margin-top: 6px;
+}
+
+
+.dropdown_Icons {
+  margin-left: 5px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.links {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#menu_Icon {
+  color: white;
+  font-size: 40px;
+}
+
+.bannerimage {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.bannerDesc {
+  /* text-align: center; */
+  margin-left: 20px;
+  margin-top: 15%;
+}
+
+.bannerBtn {
+  margin-top: 20px;
+  width: 250px;
+  height: 50px;
+  background-color: #002552;
+  color: white;
+  outline: none;
+  border: none;
+  clip-path: polygon(10% 0, 90% 0, 100% 50%, 90% 100%, 10% 100%, 0 50%);
+}
+
+/* Cards */
+
+.card_Container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cards {
+  width: 320px;
+  min-height: 300px;
+  margin-top: 7px;
+}
+
+.card_Desc {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+.paraGraphs {
+  color: #002552;
+}
+
+/* Search Page */
+
+.search_Filter {
+  height: 30px;
+  color: #002552;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* 
+.imageCard {
+  width: 400px;
+  height: 200px;
+} */
+
+@media only screen and (max-width: 750px) {
+  .cards {
+    width: 100%;
+  }
+}

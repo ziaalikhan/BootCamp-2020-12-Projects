@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.login {
+  display: none;
+}
+
+.logout {
+  width: 200px;
+  height: 30px;
+  background-color: rgba(80, 39, 155, 0.61);
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  color: white;
+  cursor: pointer;
+}
